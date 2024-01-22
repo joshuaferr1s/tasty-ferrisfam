@@ -38,6 +38,7 @@ const recipe = Astro.props;
       <ol>
         {recipe.data.steps.map(step => <li>{step}</li>)}
       </ol>
+			<p>Credit: <a href={recipe.data.credit} rel="nofollow noreferrer external" target="_blank">{recipe.data.credit}</a></p>
 		</main>
 		<Footer />
 	</body>
@@ -127,5 +128,9 @@ const recipe = Astro.props;
 	}
 	main > ol > li {
 		padding: .5em 0;
+	}
+	main > p > a {
+		text-decoration: none;
+		color: #E0FFFF;
 	}
 </style>
