@@ -1,0 +1,18 @@
+{
+  "name": "tasty-ferrisfam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [],
+  "author": "Joshua Ferris",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^4.2.1"
+  }
+}
