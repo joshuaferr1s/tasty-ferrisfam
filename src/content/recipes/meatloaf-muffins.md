@@ -1,0 +1,26 @@
+---
+title: "Meatloaf Muffins"
+description: "Portion-sized individual meatloaf muffins glazed with tangy brown sugar ketchup."
+category: "Dinner"
+cookTime: "PT50M"
+servings: "9 servings"
+credit: "https://southernfoodandfun.com/meatloaf-muffins/"
+ingredients:
+  - "1 lb ground chuck"
+  - "1 lb lean ground beef"
+  - "1 cup finely chopped onion"
+  - "½ cup finely chopped green pepper"
+  - "2 eggs"
+  - "1 cup bread crumbs"
+  - "1 tbsp Worcestershire sauce"
+  - "1 cup ketchup"
+  - "1 tsp salt"
+  - "1 tsp pepper"
+  - "3 tbsp brown sugar"
+  - "2 tsp yellow mustard"
+instructions:
+  - "Preheat oven to 350°F. Lightly spray two 12-cup muffin pans with cooking oil."
+  - "Mix meats and other ingredients (except for the ketchup, brown sugar, and mustard sauce ingredients) gently in a large bowl. Place meatloaf mixture in muffin cups, mounding slightly above each cup (fills about 18 cups)."
+  - "Bake for 25 minutes. While meatloaf is cooking, mix the ketchup, brown sugar, and mustard together. After 25 minutes, remove muffin pans from oven and spread sauce on top of each muffin."
+  - "Bake for another 10 minutes, then remove from oven and let rest for 15 minutes."
+---

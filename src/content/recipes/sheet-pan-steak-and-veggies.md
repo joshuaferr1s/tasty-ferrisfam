@@ -1,0 +1,26 @@
+---
+title: "Sheet Pan Steak and Veggies"
+description: "Broiled skirt steak over garlic-butter baby potatoes, mushrooms, and green beans."
+category: "Dinner"
+cookTime: "PT50M"
+servings: "4 servings"
+credit: "https://www.oliviascuisine.com/sheet-pan-steak-and-veggies/"
+ingredients:
+  - "1 ½ pounds baby gold potatoes, halved"
+  - "Salt and freshly ground pepper, to taste"
+  - "8 ounces baby bella mushrooms, sliced"
+  - "2 large yellow onions, quartered and separated into petals"
+  - "12 ounces green beans"
+  - "1 ½ pounds skirt steak"
+  - "½ cup unsalted butter, melted"
+  - "4 cloves garlic, minced"
+instructions:
+  - "Preheat oven to 450°F with the top rack positioned 4 to 6 inches below the broiler."
+  - "Place potatoes in a large pot, cover with salted cold water, bring to a boil, and cook uncovered for 5 to 10 minutes until fork tender. Drain and pat dry."
+  - "Combine the melted butter with the minced garlic, salt, and pepper."
+  - "Spray a large sheet pan with cooking spray and arrange the potatoes, mushrooms, onions, and green beans. Drizzle with half the garlic butter, toss to coat, and season with salt and pepper."
+  - "Roast the vegetables for 20 minutes until tender."
+  - "Cut skirt steak into 2 or 3 smaller steaks, pat dry, and season with salt and pepper. Lay steaks over the vegetables and drizzle with the remaining garlic butter."
+  - "Switch oven to broil and broil for 4 minutes, then flip the steaks and broil for another 3 to 4 minutes for medium-rare."
+  - "Remove pan from the oven and let the steaks rest for 5 to 10 minutes before slicing and serving."
+---

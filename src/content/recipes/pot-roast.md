@@ -1,0 +1,25 @@
+---
+title: "Pot Roast"
+description: "Fall-apart tender Instant Pot chuck roast with baby potatoes and carrots."
+category: "Dinner"
+cookTime: "PT1H35M"
+servings: "8 servings"
+credit: "https://feelslikehomeblog.com/best-pot-roast-ever-instant-pot-recipe/"
+ingredients:
+  - "2 pounds boneless chuck roast"
+  - "4 teaspoons olive oil"
+  - "½ medium onion"
+  - "3 cloves garlic"
+  - "1 ½ cups low sodium fat-free beef broth"
+  - "2 tablespoons tomato paste"
+  - "10 medium carrots"
+  - "6 cups baby potatoes"
+  - "sea salt"
+  - "corn starch"
+  - "1 tablespoon Worcestershire sauce"
+instructions:
+  - "Trim excess fat from the chuck roast and sprinkle salt on each side. Set Instant Pot to sauté until hot, add 2 tsp olive oil, and sear meat on both sides. Remove roast from pot."
+  - "Add remaining 2 tsp olive oil to the Instant Pot and sauté onions and garlic for a few minutes until fragrant. Deglaze with beef broth, tomato paste, and Worcestershire sauce, scraping up the browned bits from the bottom."
+  - "Return the roast to the Instant Pot along with the potatoes. Place carrots in a steamer basket on top of the meat and potatoes. Lock lid and pressure cook for 60 minutes."
+  - "Allow a natural pressure release for about 15 minutes, then quick release any remaining pressure. Remove roast and veggies and serve."
+---

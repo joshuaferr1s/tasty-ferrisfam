@@ -1,0 +1,27 @@
+---
+title: "Spaghetti Squash Casserole"
+description: "Creamy baked spaghetti squash casserole with seasoned ground beef and melted mozzarella."
+category: "Dinner"
+cookTime: "PT1H10M"
+servings: "12 servings"
+credit: "https://smashedpeasandcarrots.com/baked-spaghetti-squash-casserole-recipe/"
+ingredients:
+  - "1 medium spaghetti squash"
+  - "1 lb ground beef"
+  - "¼ onion, chopped"
+  - "1 jar spaghetti sauce"
+  - "8 oz sour cream"
+  - "½ cup parmesan cheese"
+  - "1 tbsp Italian seasoning"
+  - "1 ½ cups shredded mozzarella"
+  - "salt and pepper, to taste"
+instructions:
+  - "Place the whole spaghetti squash and 1 cup of water into the Instant Pot and cook on manual high pressure for 20 to 30 minutes."
+  - "Once cool enough to handle, halve the squash and scrape out the strands with a fork; set aside."
+  - "In a large sauté pan over medium-high heat, cook the ground beef with salt, pepper, and chopped onion until browned and onion is translucent."
+  - "Drain excess grease and stir in the spaghetti sauce, sour cream, parmesan cheese, and Italian seasoning."
+  - "Fold in the cooked spaghetti squash until well combined."
+  - "Transfer mixture to a greased 9x13-inch baking dish and top evenly with shredded mozzarella cheese."
+  - "Cover with foil and bake at 350 degrees for 30 minutes, removing the foil for the final 5 minutes until the cheese is bubbly and lightly browned."
+  - "Let cool for 10 minutes before serving."
+---

@@ -1,0 +1,66 @@
+---
+import { getCollection } from "astro:content";
+import "../styles/global.css";
+
+const recipes = await getCollection("recipes");
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Tasty FerrisFam</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="site-nav">
+                <a href={import.meta.env.BASE_URL} class="site-brand">
+                    Tasty FerrisFam
+                </a>
+            </nav>
+
+            <input
+                type="search"
+                id="search-box"
+                placeholder="Search recipes or ingredients..."
+                aria-label="Search recipes"
+                style="width: 100%; min-height: 48px; padding: 0.75rem 1rem; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); color: var(--text); font-size: 1rem; margin-bottom: 1.5rem;"
+            />
+
+            <div class="recipe-grid" id="recipe-grid">
+                {recipes.map((recipe) => (
+                    <a
+                        href={`${baseUrl}/recipes/${recipe.id}`}
+                        class="grid-card"
+                        data-search={`${recipe.data.title} ${recipe.data.category} ${recipe.data.ingredients.join(" ")}`.toLowerCase()}
+                    >
+                        <span class="badge">{recipe.data.category}</span>
+                        <h2 style="margin: 0 0 0.4rem; font-size: 1.25rem;">
+                            {recipe.data.title}
+                        </h2>
+                        <p style="margin: 0; color: var(--text-muted); font-size: 0.95rem;">
+                            {recipe.data.description}
+                        </p>
+                    </a>
+                ))}
+            </div>
+        </div>
+
+        <script>
+            const input = document.getElementById(
+                "search-box",
+            ) as HTMLInputElement;
+            const cards = document.querySelectorAll<HTMLElement>(".grid-card");
+
+            input?.addEventListener("input", () => {
+                const term = input.value.toLowerCase().trim();
+                cards.forEach((card) => {
+                    const hay = card.dataset.search || "";
+                    card.style.display = hay.includes(term) ? "block" : "none";
+                });
+            });
+        </script>
+    </body>
+</html>

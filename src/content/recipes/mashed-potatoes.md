@@ -1,0 +1,26 @@
+---
+title: "Instant Pot Mashed Potatoes"
+description: "Creamy, no-drain-stress mashed potatoes made in the Instant Pot."
+category: "Sides"
+cookTime: "PT20M"
+servings: "6 servings"
+credit: "https://thesaltymarshmallow.com/instant-pot-mashed-potatoes/comment-page-9/"
+ingredients:
+  - "3 pounds of potatoes"
+  - "water to cover potatoes"
+  - "2 teaspoons salt"
+  - "¼ cup of butter"
+  - "¼ cup of sour cream"
+  - "¼ cup of milk"
+  - "½ teaspoon of garlic powder"
+  - "½ teaspoon of pepper"
+instructions:
+  - "Place the peeled and sliced potatoes into the bottom of the Instant Pot."
+  - "Cover with water and add 1 teaspoon of salt."
+  - "Place the lid on the Instant Pot and set the valve to seal."
+  - "Cook on manual pressure for 8 minutes."
+  - "When the timer goes off, turn the Instant Pot off."
+  - "Quick release the pressure from the pot."
+  - "Drain the potatoes and return to the Instant Pot."
+  - "Add the remaining salt, pepper, garlic powder, butter, milk and sour cream to the potatoes. Mash until smooth."
+---

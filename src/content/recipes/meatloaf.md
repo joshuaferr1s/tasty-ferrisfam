@@ -1,0 +1,25 @@
+---
+title: "Homestyle Meatloaf"
+description: "Classic free-form glazed homestyle meatloaf baked with a sweet ketchup crust."
+category: "Dinner"
+cookTime: "PT1H25M"
+servings: "6 servings"
+credit: "https://www.simplyscratch.com/homestyle-meatloaf/"
+ingredients:
+  - "1 ½ pounds ground chuck"
+  - "½ medium yellow onion, finely minced"
+  - "2 cloves fresh garlic, finely minced"
+  - "1 cup Italian bread crumbs"
+  - "¾ teaspoon kosher salt"
+  - "¼ teaspoon fresh ground pepper"
+  - "¼ teaspoon dried basil"
+  - "⅓ cup Worcestershire sauce"
+  - "¼ cup ketchup, plus an additional 1/3 cup for brushing on top"
+  - "1 whole egg, lightly beaten"
+instructions:
+  - "Preheat oven to 375°F and lightly spray a foil-lined rimmed metal baking sheet with olive oil."
+  - "Add all ingredients (reserving the extra 1/3 cup ketchup) to a large bowl and mix by hand until combined. Free-form the mixture into a loaf shape on your prepared pan."
+  - "Bake for 20 minutes, remove and brush with 2/3 of the reserved ketchup before returning to the oven and baking for another 20 minutes."
+  - "Remove, brush with remaining ketchup, and bake for an additional 15 minutes."
+  - "Remove the meatloaf from the oven and allow to rest for 5 to 10 minutes before slicing."
+---

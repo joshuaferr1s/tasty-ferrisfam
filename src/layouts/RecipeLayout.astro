@@ -1,0 +1,158 @@
+---
+import "../styles/global.css";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+    recipe: CollectionEntry<"recipes">;
+}
+
+const { recipe } = Astro.props;
+const {
+    title,
+    description,
+    cookTime,
+    servings,
+    credit,
+    ingredients,
+    instructions,
+} = recipe.data;
+
+const formatDuration = (iso: string) =>
+    iso.replace("PT", "").replace("H", "h ").replace("M", "m").trim();
+
+const jsonLd = {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    name: title,
+    author: { "@type": "Person", name: "Joshua Ferris" },
+    description,
+    cookTime,
+    totalTime: cookTime,
+    recipeYield: servings,
+    recipeIngredient: ingredients,
+    recipeInstructions: instructions.map((step) => ({
+        "@type": "HowToStep",
+        text: step,
+    })),
+};
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{title} | Tasty FerrisFam</title>
+        <meta name="description" content={description} />
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </head>
+    <body>
+        <div class="container">
+            <nav class="site-nav">
+                <a href={import.meta.env.BASE_URL} class="site-brand">
+                    Tasty FerrisFam
+                </a>
+            </nav>
+
+            <article class="recipe-card">
+                <header>
+                    <h1 class="recipe-title">{title}</h1>
+                    <p class="recipe-desc">{description}</p>
+
+                    <div class="meta-strip">
+                        <div class="meta-item">
+                            <span>Cook Time</span>
+                            <strong>{formatDuration(cookTime)}</strong>
+                        </div>
+                        <div class="meta-item">
+                            <span>Yield</span>
+                            <strong>{servings}</strong>
+                        </div>
+                    </div>
+
+                    <div class="action-bar">
+                        <a href="#ingredients" class="btn btn-primary">
+                            Jump to Recipe
+                        </a>
+                        <button
+                            id="wake-btn"
+                            type="button"
+                            class="btn btn-secondary"
+                        >
+                            Keep Screen Awake
+                        </button>
+                    </div>
+                </header>
+
+                <section class="recipe-notes">
+                    <slot />
+                </section>
+
+                <section id="ingredients">
+                    <h2>Ingredients</h2>
+                    <ul class="ingredient-list">
+                        {ingredients.map((item) => (
+                            <li>
+                                <label class="ingredient-label">
+                                    <input type="checkbox" />
+                                    <span>{item}</span>
+                                </label>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+
+                <section id="instructions">
+                    <h2>Instructions</h2>
+                    <ol class="instruction-list">
+                        {instructions.map((step) => (
+                            <li>{step}</li>
+                        ))}
+                    </ol>
+                </section>
+
+                {credit && (
+                    <p
+                        class="recipe-desc"
+                        style="margin-top: 2rem; font-size: 0.9rem;"
+                    >
+                        Credit:{" "}
+                        <a
+                            href={credit}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {credit}
+                        </a>
+                    </p>
+                )}
+            </article>
+        </div>
+
+        <script>
+            const wakeBtn = document.getElementById("wake-btn");
+            let wakeLock: WakeLockSentinel | null = null;
+
+            wakeBtn?.addEventListener("click", async () => {
+                if (!("wakeLock" in navigator)) {
+                    wakeBtn.textContent = "Not Supported on Browser";
+                    return;
+                }
+                try {
+                    if (!wakeLock) {
+                        wakeLock = await navigator.wakeLock.request("screen");
+                        wakeBtn.textContent = "Screen Awake ✓";
+                        wakeLock.addEventListener("release", () => {
+                            wakeLock = null;
+                            wakeBtn.textContent = "Keep Screen Awake";
+                        });
+                    } else {
+                        await wakeLock.release();
+                    }
+                } catch (err) {
+                    console.error(err);
+                }
+            });
+        </script>
+    </body>
+</html>

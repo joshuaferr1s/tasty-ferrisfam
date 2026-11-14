@@ -1,0 +1,25 @@
+---
+title: "Chewy Chocolate Chip Cookies"
+description: "Bakery-style thick and chewy chocolate chip cookies made with melted butter."
+category: "Dessert"
+cookTime: "PT25M"
+servings: "24 cookies"
+credit: "https://thevoice.us/recipe-of-the-week-big-and-chewy-chocolate-chip-cookies/"
+ingredients:
+  - "2 cups all-purpose flour"
+  - "½ teaspoon baking soda"
+  - "½ teaspoon salt"
+  - "¾ cup unsalted butter, melted and slightly cooled"
+  - "1 cup packed brown sugar"
+  - "½ cup white sugar"
+  - "1 tablespoon vanilla extract"
+  - "1 egg"
+  - "1 egg yolk"
+  - "2 cups semisweet chocolate chips"
+instructions:
+  - "Preheat the oven to 325 degrees F (165 degrees C). Line cookie sheets with parchment paper."
+  - "Sift together the flour, baking soda and salt; set aside."
+  - "In a medium bowl, cream together the melted butter, brown sugar and white sugar until well blended. Beat in the vanilla, egg, and egg yolk until light and creamy. Mix in the sifted ingredients until just blended. Stir in the chocolate chips by hand using a wooden spoon. If your butter was still hot when you added it, let the dough rest at room temperature for a couple of minutes until cool enough to scoop."
+  - "Roll a scant half-cup of dough into a ball. Holding dough ball in fingertips of both hands, pull apart into two equal halves. Rotate halves 90 degrees and, with jagged surfaces facing up, place formed dough onto cookie sheet (or roll taller than wider). Bake, reversing position of cookie sheets halfway through baking, until cookies are light golden brown and outer edges start to harden yet centers are still soft and puffy, approximately 11-14 minutes. Do not overbake."
+  - "Cool cookies on sheets until able to lift without breaking. Transfer to a wire rack to cool."
+---

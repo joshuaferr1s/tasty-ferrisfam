@@ -1,0 +1,26 @@
+---
+title: "Meatball-Stuffed Spaghetti Squash"
+description: "Roasted spaghetti squash boats filled with marinara, meatballs, and melted mozzarella."
+category: "Dinner"
+cookTime: "PT1H10M"
+servings: "4 servings"
+credit: "https://www.thekitchn.com/easy-low-carb-meatball-stuffed-spaghetti-squash-262011"
+ingredients:
+  - "2 medium spaghetti squash (about 5 pounds total)"
+  - "1 tablespoon olive oil"
+  - "1 teaspoon kosher salt"
+  - "½ teaspoon freshly ground black pepper"
+  - "4 cloves garlic, smashed"
+  - "1 cup marinara sauce"
+  - "¼ cup finely grated Parmesan cheese (about 1 ounce)"
+  - "¼ cup torn fresh basil leaves, plus more for garnish"
+  - "¼ teaspoon red pepper flakes"
+  - "12 ounces precooked meatballs (about 12 meatballs), thawed if frozen"
+  - "¾ cup whole-milk low-moisture shredded mozzarella cheese"
+instructions:
+  - "Arrange a rack in the middle of the oven and heat to 400°F. Line a rimmed baking sheet with aluminum foil; set aside."
+  - "Cut each squash in half lengthwise and scoop out the seeds. Brush the cut sides with olive oil and season with salt and pepper. Place cut-side down in a single layer on the baking sheet, placing one garlic clove under each piece of squash. Roast until soft when poked with a fork and skin is browned and blistered, about 40 minutes."
+  - "Remove the baking sheet from the oven. Flip the squash over with tongs and discard the garlic. Use a fork to shred the inside of each squash half, leaving about 1/2 inch of unshredded squash in the shell. Transfer shredded squash to a large bowl, add marinara sauce, Parmesan, basil, and red pepper flakes, and stir to combine."
+  - "Evenly divide the shredded filling between the squash halves. Top with the meatballs and shredded mozzarella cheese."
+  - "Bake until the meatballs are heated through and the cheese is melted, 15 to 20 minutes. Garnish with more fresh basil before serving."
+---
